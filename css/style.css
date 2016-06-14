@@ -1,0 +1,110 @@
+/*---========================================
+	Base Element Styles
+==============================================*/
+
+* { 
+ box-sizing: border-box;
+}
+
+body {
+	line-height: 1.6;
+	color: #999;
+	background-color: #e8e8ee;
+	margin: 0;
+	
+}
+
+h1{
+	margin-top: 0;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+.main-nav li {
+	text-transform: uppercase;
+	font-size: .75rem;
+}
+h4
+{
+	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: 600;
+	color: rgba(0,0,0,.8);
+	text-align: center;
+}
+
+
+/*---========================================
+	Base Layout Styles
+==============================================*/
+/* -------------- Navigation ---------------- */
+.main-header,
+.main-nav {
+	display: flex;
+	flex-direction: column;
+}
+
+.name {
+	color: #999;
+	margin: 0;
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 
+}
+
+.main-nav a {
+	display: block;
+	text-align: center;
+	color: #333;
+	background-color:#fff;
+	padding: .5em;
+}
+.main-nav li {
+	margin: .5em 1em 0 1em;
+}
+
+/* -------------- Layout Containers ---------------- */
+
+.container
+ {
+	padding-left: 1em;
+	padding-right: 1em;
+	width: 90%;
+	background-color: white;
+	margin: 0, auto;
+}
+
+.main-header {
+	padding: 1em 0 0 0;
+}
+
+
+
+.main-footer {
+	text-align: center;
+	padding: 2em;
+	background: turquoise;
+}
+
+.portfolio {
+	padding-top: 2em;
+	margin-right: 0;
+	
+}
+
+ 
+/* -------------- Page Elements ---------------- */
+
+
+
+/*---========================================
+	IDK
+==============================================*/
+
+
+
+

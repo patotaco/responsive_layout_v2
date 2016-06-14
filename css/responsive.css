@@ -1,0 +1,64 @@
+
+/*---========================================
+	Nav & Header
+==============================================*/
+
+
+@media (min-width: 768px) {
+/* -------------- Nav Bar---------------- */
+	.main-nav
+	{
+		flex-direction: row;
+		align-self: center;
+	}
+	.profile{
+		padding-top: 20px
+	}
+
+	.main-nav a {
+		background-color: transparent;
+	}
+
+/* -------------- banner ---------------- */
+	.intro {
+		display: flex;
+		
+	}
+	.intro {
+		
+		align-items: right;
+	}
+
+	.col {
+		flex: 1;
+	}
+
+	.bio {
+		order: -1;
+
+	}
+	.biopic {
+		margin-left: auto;
+	}
+}
+
+@media (min-width: 1024px) {
+/* -------------- Nav Bar ---------------- */
+	.main-header {
+		flex-direction: row;
+	}
+	.name {
+		margin-right: auto;
+	}
+	.main-nav {
+		margin-top: 0
+	}
+	.main-nav li {
+		margin-left: .6em;
+		margin-right: .6em;
+	}
+
+/* -------------- Portfolio ---------------- */
+
+
+}
