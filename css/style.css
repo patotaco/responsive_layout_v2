@@ -10,8 +10,6 @@ body {
 	line-height: 1.6;
 	color: #999;
 	background-color: #e8e8ee;
-	margin: 0;
-	
 }
 
 h1{
@@ -53,7 +51,7 @@ h4
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 20px;
-	padding-left: 
+	
 }
 
 .main-nav a {
@@ -68,21 +66,23 @@ h4
 }
 
 /* -------------- Layout Containers ---------------- */
-
-.container
- {
-	padding-left: 1em;
-	padding-right: 1em;
-	width: 90%;
-	background-color: white;
-	margin: 0, auto;
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+.wrap {
+	width: 80%;
+	margin: 0 auto;
 }
 
 .main-header {
 	padding: 1em 0 0 0;
 }
 
-
+.intro{
+	margin: 0 auto;
+	
+}
 
 .main-footer {
 	text-align: center;
@@ -92,19 +92,33 @@ h4
 
 .portfolio {
 	padding-top: 2em;
-	margin-right: 0;
+	margin: 0 auto;
 	
 }
 
  
 /* -------------- Page Elements ---------------- */
-
+.proimg {
+	margin: 0 auto;
+}
 
 
 /*---========================================
-	IDK
+	Clear Fix Yourself
 ==============================================*/
 
-
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
 
 

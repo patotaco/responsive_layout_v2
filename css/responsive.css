@@ -9,7 +9,7 @@
 	.main-nav
 	{
 		flex-direction: row;
-		align-self: center;
+		justify-content: center;
 	}
 	.profile{
 		padding-top: 20px
@@ -22,15 +22,13 @@
 /* -------------- banner ---------------- */
 	.intro {
 		display: flex;
-		
+		justify-content: space-around;
 	}
-	.intro {
-		
-		align-items: right;
-	}
+
 
 	.col {
 		flex: 1;
+		padding: 0 5px;
 	}
 
 	.bio {
@@ -38,7 +36,7 @@
 
 	}
 	.biopic {
-		margin-left: auto;
+		
 	}
 }
 
@@ -46,6 +44,10 @@
 /* -------------- Nav Bar ---------------- */
 	.main-header {
 		flex-direction: row;
+
+	}
+	.header {
+
 	}
 	.name {
 		margin-right: auto;
