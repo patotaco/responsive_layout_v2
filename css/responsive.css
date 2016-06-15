@@ -1,8 +1,10 @@
 
 /*---========================================
-	Nav & Header
+	Nav & Header || Footer
 ==============================================*/
-
+.hide {
+	display: none;
+}
 
 @media (min-width: 768px) {
 /* -------------- Nav Bar---------------- */
@@ -18,26 +20,61 @@
 	.main-nav a {
 		background-color: transparent;
 	}
+	.main-nav li {
+	margin: .5em 1em 0 1em;
+	font-size: .85rem;
+}
 
 /* -------------- banner ---------------- */
 	.intro {
 		display: flex;
-		justify-content: space-around;
 	}
 
 
 	.col {
 		flex: 1;
-		padding: 0 5px;
+		padding: 0 15px;
+
 	}
 
 	.bio {
 		order: -1;
+		max-width: 666px;
 
 	}
 	.biopic {
+		max-width: 40%;
+		margin-left: auto;
+		margin-right: 20px;
+	}
+/* -------------- Portfolio ---------------- */
+	.cardset {
+		max-width: 980px;
+		flex-direction: row;
+		flex-wrap: wrap;
 		
 	}
+
+	.card {
+	flex: 1;
+	min-width: 350px;
+}
+
+.foot-nav ul {
+	display: all;
+}
+
+/* -------------- Footer ---------------- */
+.no {
+	display: none;
+}
+
+.hide{
+	display: inline;
+}
+ .hide a:hover {
+	color: white;
+	transition: 1s;
 }
 
 @media (min-width: 1024px) {
@@ -46,9 +83,7 @@
 		flex-direction: row;
 
 	}
-	.header {
-
-	}
+	
 	.name {
 		margin-right: auto;
 	}
@@ -60,7 +95,37 @@
 		margin-right: .6em;
 	}
 
+	.cardset {
+		justify-content: space-around;
+	}
+
+/* -------------- Banner---------------- */
+.biopic, .proimg {
+		margin-right: 0;
+	}
 /* -------------- Portfolio ---------------- */
 
 
+.cardset {
+		min-width: 1024px;
+		flex-direction: row;
+		flex-wrap: wrap;
+		
+	}
+
+	.card {
+	flex: 1;
+	min-width: 300px;
 }
+
+}
+
+
+
+
+
+
+
+
+
+
