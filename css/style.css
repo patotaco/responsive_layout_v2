@@ -142,7 +142,7 @@ p
 .main-footer {
 	text-align: center;
 	padding: 0 2em;
-	background: turquoise;
+	background: #e8e8ee;
 }
 
 .portfolio,
@@ -163,7 +163,11 @@ p
 
 
 /* -------------- Footer ---------------- */
+.f {
 
+	border-top-color: #333;
+	border-top: .5px dotted;
+}
 
 .foot-nav {
 	display: flex;
