@@ -46,7 +46,7 @@ h4
 p
  {
 	font-size: 1em;
-	font-weight: light;
+	font-weight: lighter;
 }
 .col {
 	text-align: center;
@@ -161,7 +161,7 @@ p
 	background: #e8e8ee;
 }
 
-.portfolio,
+.portfolio
 {
 	padding-top: 2em;
 	margin: 0 auto;
@@ -191,7 +191,7 @@ p
 }
 
 /* -------------- Footer ---------------- */
-.f,
+.f
  {
 
 	border-top-color: #333;

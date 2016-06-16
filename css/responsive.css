@@ -60,9 +60,6 @@
 	min-width: 350px;
 }
 
-.foot-nav ul {
-	display: all;
-}
 
 /* -------------- Footer ---------------- */
 .no {
@@ -78,7 +75,7 @@
 }
 
 @media (min-width: 1024px) {
-/* -------------- Nav Bar ---------------- */
+
 	.main-header {
 		flex-direction: row;
 
@@ -120,13 +117,4 @@
 
 
 }
-
-
-
-
-
-
-
-
-
 
