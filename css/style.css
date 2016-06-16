@@ -40,7 +40,8 @@ h4
 	font-weight: 600;
 	color: rgba(0,0,0,.8);
 	text-align: center;
-	padding: 30px 0;
+	padding: 1rem 0;
+	margin-top: 0;
 }
 p
  {
@@ -50,9 +51,22 @@ p
 .col {
 	text-align: center;
 	font-weight: 100;
+}
+/* -------------- Inspire ---------------- */
+
+.inspite {
+	margin: 0 auto;
+	background-color: #fff;
+
+}
+
+.read li {
+	font-size: 1.9rem;
+}
+
+
 
 /* -------------- Contact ---------------- */
-}
 .contact p {
 	font-weight: lighter;
 	font-size: 1rem;
@@ -71,6 +85,8 @@ p
 	margin-left: 1em;
 	letter-spacing: .025em;
 }
+
+
 
 /*---========================================
 	Base Layout Styles
@@ -151,6 +167,16 @@ p
 	margin: 0 auto;
 	
 }
+
+.inspite {
+
+	border-top-color: #333;
+	border-top: .5px solid;
+}
+
+
+
+
 /* -------------- Contact ---------------- */
 .contact {
 	margin: 0 auto;
@@ -160,10 +186,13 @@ p
 .vitals{
 	padding-bottom: 30px;
 }
-
+.cardset {
+	padding-bottom: 3rem;
+}
 
 /* -------------- Footer ---------------- */
-.f {
+.f,
+ {
 
 	border-top-color: #333;
 	border-top: .5px dotted;

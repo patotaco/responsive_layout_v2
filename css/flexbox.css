@@ -1,0 +1,71 @@
+/*---========================================
+	Styling
+==============================================*/
+.books{
+	margin: 0 auto;
+	width: 80%;
+	
+	border-radius: 5px;
+}
+
+.aut {
+	font-size: 2.5rem;
+	text-align: center;
+	color: #fff;
+	border-radius: 3px;
+	padding: 8px;
+	margin: 5px;
+	background-color: turquoise;
+}
+
+.aut a {
+	padding: 80px 25px;
+	align-self: center;
+	font-size: 4rem;
+	color: rgba(255,255,255, 0.8);
+}
+/*---========================================
+	Flexboxing
+==============================================*/
+.books {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	min-height: 300px;
+}
+
+.aut {
+	flex: 1;
+	min-width: 300px;
+	min-height: 300px;
+}
+.kurt {
+	background-image: url("../img/kurt.png");
+	background-size: 100% 100%;
+}
+.kurt a:hover {
+	color: turquoise;
+}
+
+.henry{
+	background-image: url("../img/henry.png");
+	background-size: 100% 100%;
+}
+.henry a:hover {
+	color: firebrick;
+}
+
+.hank{
+	background-image: url("../img/hank.png");
+	background-size: 100% 100%;
+}
+.hank a:hover {
+	color: yellow;
+}
+.howard{
+	background-image: url("../img/howard.png");
+	background-size: 100% 100%;
+}
+.howard a:hover {
+	color: green;
+}
