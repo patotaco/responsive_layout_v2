@@ -1,0 +1,42 @@
+/*---========================================
+	Element styling
+==============================================*/
+h3 {
+	text-align: center;
+	font-weight: lighter;
+}
+
+.card p {
+	text-align: center;
+	font-weight: lighter;
+}
+
+
+.card img {
+	max-width: 100%;
+}
+
+.card {
+	padding: 5px;
+}
+.cardset {
+	margin: 0 auto;
+	max-width: 95%;
+}
+
+/*---========================================
+	Flexboxing
+==============================================*/
+
+.cardset{
+
+	display: flex;
+	flex-wrap: wrap;
+	
+
+}
+
+
+.card2 {
+	flex-grow: 2;
+}

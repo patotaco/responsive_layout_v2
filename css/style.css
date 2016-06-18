@@ -6,12 +6,14 @@
  box-sizing: border-box;
 }
 
+
+
 body {
+
 	line-height: 1.6;
-	color: #999;
+	color: #333;
 	background-color: #e8e8ee;
-	margin: 0;
-	
+	margin: 0 auto;
 }
 
 h1{
@@ -22,10 +24,15 @@ a {
 	color: #333;
 	text-decoration: none;
 }
-.main-nav li {
+.main-nav li,
+.foot-nav li {
 	text-transform: uppercase;
-	font-size: .75rem;
+	font-size: 1rem;
 }
+.main-nav {
+	padding-bottom: 2rem;
+}
+
 h4
 {
 	text-transform: uppercase;
@@ -33,19 +40,73 @@ h4
 	font-weight: 600;
 	color: rgba(0,0,0,.8);
 	text-align: center;
+	padding: 1rem 0;
+	margin-top: 0;
 }
+p
+ {
+	font-size: 1em;
+	font-weight: lighter;
+}
+.col {
+	text-align: center;
+	font-weight: 100;
+}
+/* -------------- Inspire ---------------- */
+
+.inspite {
+	margin: 0 auto;
+	background-color: #fff;
+
+}
+
+.read li {
+	font-size: 1.9rem;
+}
+
+
+
+/* -------------- Contact ---------------- */
+.contact p {
+	font-weight: lighter;
+	font-size: 1rem;
+	text-align: center;
+}
+.contact a:hover {
+	text-decoration:line-through;
+	color: black;
+}
+.contact h3 {
+	font-weight: 400;
+}
+.vit {
+	font-weight: 400;
+	color: #666;
+	margin-left: 1em;
+	letter-spacing: .025em;
+}
+
 
 
 /*---========================================
 	Base Layout Styles
 ==============================================*/
+
 /* -------------- Navigation ---------------- */
 .main-header,
 .main-nav {
 	display: flex;
 	flex-direction: column;
 }
-
+ .name a:hover {
+   color: firebrick; 
+	transition: 1s;
+	border-bottom: .5px solid;
+}
+.main-nav a:hover {
+	color: turquoise;
+	transition: 1s;
+}
 .name {
 	color: #999;
 	margin: 0;
@@ -53,7 +114,7 @@ h4
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 20px;
-	padding-left: 
+	
 }
 
 .main-nav a {
@@ -64,47 +125,125 @@ h4
 	padding: .5em;
 }
 .main-nav li {
-	margin: .5em 1em 0 1em;
+	margin: .5em 0 0 0;
+	line-height: 2rem;
 }
 
-/* -------------- Layout Containers ---------------- */
 
-.container
- {
-	padding-left: 1em;
-	padding-right: 1em;
+
+/* -------------- Layout Containers ---------------- */
+.container {
+	
+	margin: 0 auto;
+	background-color: #fff;
+}
+.wrap {
 	width: 90%;
-	background-color: white;
-	margin: 0, auto;
+	margin: 0 auto;
+	max-width: 1100px;
 }
 
 .main-header {
 	padding: 1em 0 0 0;
+	margin: 0;
 }
 
-
+.intro{
+	
+	margin: 0 auto;
+	margin-bottom: 3rem;
+	
+}
 
 .main-footer {
 	text-align: center;
-	padding: 2em;
-	background: turquoise;
+	padding: 0 2em;
+	background: #e8e8ee;
 }
 
-.portfolio {
+.portfolio
+{
 	padding-top: 2em;
-	margin-right: 0;
+	margin: 0 auto;
 	
+}
+
+.inspite {
+
+	border-top-color: #333;
+	border-top: .5px solid;
+}
+
+
+
+
+/* -------------- Contact ---------------- */
+.contact {
+	margin: 0 auto;
+	width: 85%;
+}
+
+.vitals{
+	padding-bottom: 30px;
+}
+.cardset {
+	padding-bottom: 3rem;
+}
+
+/* -------------- Footer ---------------- */
+.f
+ {
+
+	border-top-color: #333;
+	border-top: .5px dotted;
+}
+
+.foot-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.f {
+	display: flex;
+	flex-direction: row;
+}
+.f-name {
+	margin-right: auto;
+}
+.foot-nav li {
+		margin-left: .6em;
+		margin-right: .6em;
+	}
+
+.foot-nav  {
+	align-self: center;
 }
 
  
 /* -------------- Page Elements ---------------- */
+.proimg {
+	max-width: 100%;
+	margin: 0 auto;
 
+}
 
 
 /*---========================================
-	IDK
+	Clear Fix Yourself
 ==============================================*/
 
-
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
 
 

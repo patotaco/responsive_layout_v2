@@ -2,46 +2,140 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Jah Fari</title>
+	<title>Joe Fari</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/portfolio.css">
 	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/flexbox.css">
+	
 </head>
 <body>
 	
-		
-			
-			<header class="main-header">
+		<div class="wrap">
+			<header class="main-header" id="home">
 				
-					<h1 class="name"><a href="#">Jah Ras Fari</a></h1>
+					<h1 class="name"><a href="#">Joe R. Fari</a></h1>
 					<ul class="main-nav">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Portfolio</a></li>
-						<li><a href="#">Contact</a></li>
-						<li><a href="#">Inspirations</a></li>
-
+						<li><a href="#home">Home</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#contact">Contact</a></li>
+						<li><a href="inspiration">Inspirations</a></li>
 					</ul>
 				
 			</header>	
-				
-			<div class="intro">
-				<div class="biopic col">
-			<img class="profile" src="img/profile.png" alt="profile-picture">
+				<div class="intro clearfix">
+					<div class="biopic col">
+						<img class="proimg clearfix" src="img/profile.png" alt="bio-picture">
+					</div>
+					<div class="bio col">
+						<p>Greetings! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my mad HTML CSS &amp; JS skills to use!</p>
+					</div>
+		</div>			
+				</div>
+	
+		<div class= "container" id="portfolio">
+		
+				<h4>Portfolio</h4>
+
+			<div class="cardset" >
+				<div class="card1 card">
+					<img src="img/portfolio-1.png" alt ="marketing page">
+					<h3>Marketing Page</h3>
+					<p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+				</div>
+
+				<div class="card2 card">
+					<img src="img/portfolio-2.png" alt ="search page">
+					<h3>Search Page</h3>
+					<p>This project searches through a specific database to find information that the user is trying to look up.</p>
+				</div>
+
+				<div class="card3 card">
+					<img src="img/portfolio-3.png" alt ="Travel App">
+					<h3>Travel App</h3>
+					<p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+				</div>
+
+				<div class="card4 card">
+					<img src="img/portfolio-6.png" alt ="map of spots">
+					<h3>Map of Favorite Spots</h3>
+					<p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
+				</div>
+
+				<div class="card5 card">
+					<img src="img/portfolio-5.png" alt ="Photo Gallery">
+					<h3>Photo Gallery</h3>
+					<p>This project shows pictures from a recent trip to the viewr and allows them to easily navigate through photos.</p>
+				</div>
+
+				<div class="card6 card">
+					<img src="img/portfolio-4.png" alt ="Calculator">
+					<h3>Calculator</h3>
+					<p>Someone can enter in the numbers they want, and press the big blue button and get the result. Cool.</p>
+				</div>
+
+				<div class="card7 card">
+					<img src="img/portfolio-7.png" alt ="Video Player">
+					<h3>HTML and CSS Video Player</h3>
+					<p>Create a custom player bar and upload cool videos hopefully as cool as nPettit's class ->shout out to great teachers! </p>
+				</div>
+
+				<div class="card8 card">
+					<img src="img/portfolio-8.png" alt ="Video Playlist">
+					<h3>Video Playlist</h3>
+					<p>Use JavaScript to create your own playlist. So long sad algorithims that controled my banal experience. </p>
 				</div>
 			
-				<div class = "bio col">
-				<p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
+				<div class="card9 card">
+					<img src="img/portfolio-9.png" alt ="Tables">
+					<h3>Tables and Forms</h3>
+					<p>Some things never change. But now with jQuery...</p>
 				</div>
-			</div>
-	
-			<div class="container portfolio">
-		
-			<h4>Portfolio</h4>
 
-			<p>Croissant macaroon pie brownie. Cookie marshmallow liquorice gingerbread caramels toffee I love chocolate. Wafer lollipop dessert. Bonbon jelly beans pudding dessert sugar plum. Marzipan toffee drag&#233;e chocolate bar candy toffee pudding I love. Gummi bears pie gingerbread lollipop.</p>
+			</div>
 		</div>
+
+
+		<div class="inspite" id="inspiration">
+		
+			<h4>in spite of</h4>
+
+			<div class="books">
+				
+					<div class="kurt aut"><a href="#">Kurt Vonnegut</a></div>
+					<div class="henry aut"><a href="#">Henry D Thoreau</a></div>
+					<div class="hank aut"><a href="#">Henry Bukowski</a></div>
+					<div class="howard aut"><a href="#">Howard Zinn</a></div>
+					
+			</div>
+			
+		</div>
+		<div class="contact" id="contact" >
+
+				<h4>Contact</h4>
+			<div class="vitals">
+				<p>If you're interested in chatting or want more information about what I've been <a class="strike" href="#portfolio">failing</a> at, I'd love to hear from you.</p>
+				
+					<p>Phone    <b class="vit">+1(800)MIX-ALOT</b></p>
+					<p>Email    <b class="vit">RossPerot92@aol.com</b></p>
+
+				</div>
+
+		</div>
+
+	
 		<footer class="main-footer">
-			<p>&copy;2015 Residents of The Best City Ever.</p>
+			<div class="f">
+				<h4 class="f-name">Jah R. Fari</h4>
+				<ul class="foot-nav">
+					<li class="foot1 foot hide"><a href="#home"> Home</a> </li>
+					<li class="foot1 foot hide"><a href="#home"> Portfolio</a> </li>
+					<li class="foot1 foot hide"><a href="#home"> Contact</a> </li>
+					<li class="foot1 foot no"><a href="#home"> Back to top</a> </li>
+					
+				</ul>
+			</div>
 		</footer>
 
 
